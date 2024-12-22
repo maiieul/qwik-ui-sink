@@ -8,7 +8,7 @@ export const Progress = component$<PropsOf<typeof HeadlessProgress.Root>>(
       <HeadlessProgress.Root
         class={cn(
           "relative h-4 w-full overflow-hidden rounded bg-secondary",
-          props?.class,
+          props.class,
         )}
       >
         <HeadlessProgress.Indicator

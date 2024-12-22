@@ -34,6 +34,7 @@ import {
   Toggle,
   ToggleGroup,
 } from "~/components/ui";
+
 export default component$(() => {
   const notifications = [
     {
