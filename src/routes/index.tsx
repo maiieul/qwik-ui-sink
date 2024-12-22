@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { component$, useSignal, useVisibleTask$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import { Dropdown } from "@qwik-ui/headless";
@@ -108,7 +109,7 @@ export default component$(() => {
             </Accordion.Content>
           </Accordion.Item>
         </Accordion.Root>
-        <br />
+        {/* <br />
         <Alert.Root>
           <LuRocket class="h-4 w-4" />
           <Alert.Title>Heads up!</Alert.Title>
@@ -160,7 +161,7 @@ export default component$(() => {
                   Send notifications to device.
                 </p>
               </div>
-              {/* <Switch /> */}
+               <Switch />
             </div>
             <div>
               {notifications.map((notification, index) => (
@@ -454,7 +455,7 @@ export default component$(() => {
           <ToggleGroup.Item value="right" aria-label="Right aligned">
             Right
           </ToggleGroup.Item>
-        </ToggleGroup.Root>
+        </ToggleGroup.Root> */}
       </div>
     </>
   );
